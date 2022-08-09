@@ -1,0 +1,84 @@
+
+  
+  .card {
+    margin: 80px;
+    box-sizing: border-box;
+    padding: 5px 5px 5px 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 10px #31C5D7;
+    transition: width 2s, background-color 1s, box-shadow 1s;
+    border-radius: 10px;
+    color: black;
+    position: relative;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 1);
+  }
+  
+  .common {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 150px;
+    width: 1400px;
+    background: linear-gradient(to right, #D74177, #FFE98A);
+    font-family: Helvetica;
+    text-align: center;
+    color: white;
+  }
+  #name p{
+    margin: 16px;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+    padding: 7px;
+  }
+  a:hover{
+    font-size: large;
+    color: #D74177;
+    transform: perspective(400px) rotateY(0deg);
+  }
+  
+  #button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: linear-gradient(to right, #D74177, #FFE98A);
+    width: 100px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+  }
+  
+  #name {
+    font-size: 24px;
+  }
+  #container{
+    border-radius: 20px;
+    width: 215px;
+    height: 143px;
+    background-color: darkgray;
+    position: absolute;
+    bottom: 20px;
+    left: 100px;
+    opacity: 0.9;
+  }
+  .btn{
+    position: absolute;
+    bottom: -65px;
+    left: 0px;
+    width: 391px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: white;
+    cursor: pointer;
+  }
+  .btn:hover{
+    background-color: crimson;
+    filter: grayscale(0%);
+	  transform: scale(1.1);
+  }
